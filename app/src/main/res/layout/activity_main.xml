@@ -18,10 +18,10 @@
 
     <EditText
         android:id="@+id/email_Address"
-        android:layout_width="364dp"
-        android:layout_height="46dp"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="140dp"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,18 +60,5 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="362dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="403dp"
-        android:layout_marginBottom="268dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
